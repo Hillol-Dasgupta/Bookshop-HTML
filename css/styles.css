@@ -1,0 +1,31 @@
+.navbar{
+    border-bottom: #f5564e 3px solid;
+    opacity: 0.8;
+    background-color: #5d50c6;
+    color: #f5564e;
+}
+.navbar a{
+    list-style: none;
+}
+.nav-link{
+    color: #ffedc6 !important;
+}
+
+.carousel-thumbnails .carousel-indicators img {
+    max-width: 100px;
+    height: 50px;
+    overflow: hidden;
+    display: block;
+}
+
+.carousel-thumbnails .carousel-indicators li {
+    height: auto;
+    max-width: 100px;
+    width: 100px;
+    border: none;
+	box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+	
+	&.active {
+		border-bottom: 4px solid #fff;
+	}
+}
